@@ -1,0 +1,419 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+*{
+    margin: 0; 
+    padding : 0;
+    font-family: 'NanumBarunGothic', sans-serif;
+}
+button{
+    background: none;
+    border:0;
+}
+.upper{
+    position: relative;
+}
+#logo{
+    position :absolute;
+    width : 238px;
+    height: 77px;
+    left: 257px;
+    top: 67px;
+}
+#upperBg{
+    position : absolute;
+    width : 1920px;
+    height: 1499px;
+    opacity: 0.8; 
+}
+#mainComment{
+    position: absolute;
+    top: 455px;
+    left : 50%;
+    transform: translate(-50%);
+    font-size: 80pt;
+    letter-spacing: 0.01em;
+    color: white;
+    text-align: center;
+        
+}
+#subComment{
+    position:absolute;
+    top:875px;
+    left : 50%;
+    transform: translate(-50%);
+    width : 990px;
+    height : 67px;
+    border : 0px none white;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 40px;
+    color:blueviolet;
+}
+.upperBtn{
+    position : absolute;
+    left : 887px;
+    top : 10px;
+}
+.mid{
+    position : relative;
+    top: 1499px;
+    border : 0px none white;
+    background-color: white;
+    width : 1920px;
+    height: 1385px;
+    
+}
+#allMan{
+    position : absolute;
+    top : 461px;
+    left : 258px;
+    width : 329px;
+    font-size:12pt;
+    color : #6c6c6c;
+}
+#allNum{
+    position : absolute;
+    top : 23px;
+    color : red;
+    font-size : 48pt;
+    
+}
+#todayMan{
+    position : absolute;
+    top : 700px;
+    left : 258px;
+    width : 329px;
+    font-size:12pt;
+    color : #6c6c6c;
+}
+#todayNum{
+    position : absolute;
+    top : 23px;
+    color : blue;
+    font-size : 48pt;
+    
+}
+#line{
+    position : absolute;
+    top : 641px;
+    left : 250px;
+    width : 330px;
+}
+.mid> #leftBtn{
+    position : absolute;
+    top : 373px;
+    left : 733px;
+    
+}
+.btn{
+    font-size : 17pt;
+    font-weight: bold;
+    color : #4a6b4b;
+    background-color: white;
+    border : 1px solid gray;
+    width: 126px;
+    height: 75px;
+    letter-spacing: 0.5em;
+    border-radius: 0%;
+    border-color : #cecece;
+    
+    box-shadow: none;
+    margin-left : -5.3px;    
+}
+.mid>#rightBtn{
+    position : absolute;
+    top:373px;
+    left:1280px;
+}
+#warning{
+    position : absolute;
+    top : 1200px;
+    left : 975px;
+    border : 2px solid #b83232;
+    background-color: #b83232;
+    width : 731px;
+    height: 151px;
+    font-size: 27pt;
+    color : white;
+    padding-left: 210px;
+    padding-top: 57px;
+    font-weight: bolder;
+    box-shadow: 20px 20px 15px 30px rgba(0,0,0,0.28);  
+    z-index: 2;
+}
+#redWarning{
+    position : absolute;
+    left : 66px;
+    top : 65px;
+    width : 120px;
+    height: 120px;
+}
+.analysis{
+    position : absolute;
+    top : 2884px;
+    width:1920px;
+    height: 932px; 
+      
+}
+#bg{
+    position : absolute;
+    top : 0px;
+
+}
+#analysisBoxes{
+    position : absolute;
+    top :271px;
+    left :240px;
+}
+.analysisBox{
+    position : relative;
+    display : inline-block;
+    width : 480px;
+    height: 295px;
+    padding-top : 172px;
+}
+.analysisTxt{
+    font-size : 50px;
+    color : #fefefe;
+    font-weight: bold;
+    text-align : center;
+    
+}
+#whiteBox{
+    position : absolute;
+    top : 271px;
+    left : 240px;
+    width :1438px;
+    height: 467px;
+    border : 1px solid white;
+    background-color: white;
+    opacity: 0.3;
+}
+.analysisBtn{
+    position : absolute;
+    width : 240px;
+    height: 56px;
+    left : 120px;
+    top : 288px;
+    font-size : 18px;
+    color : #fefefe;
+    border: 4.8px solid #fefefe;
+}
+.msg{
+    position : absolute;
+    top:3816px;
+    width : 1920px;
+    height: 197px;
+}
+#msg{
+    position :absolute;
+    top : 0px;
+}
+#msgInput{
+    position : absolute;
+    left : 945px;
+    top : 66px;
+    width : 600px;
+    height: 66px;
+    font-size : 18px;
+    padding-left :30px
+}
+.bottom{
+    position :absolute;
+    top: 4013px;
+    width : 1920px;
+    height : 2650px;
+}
+#bottomLine{
+    position : absolute;
+    top : 2578px;
+    left : 240px;
+    width : 1445px;
+    height: 2px;
+    color :#7a867b;
+    background-color: #7a867b;
+}
+#bottomBtn{
+    position :absolute;
+    top : 2548px;
+    left : 923px;
+    color : white;
+    text-align: center;
+    font-size : 65px;
+    font-weight: bolder;
+    border : 2px solid #7a867b;
+    border-radius: 100%;
+    width : 70px;
+    height: 70px;
+    background-color: #7a867b;    
+}
+.commentBox{
+    width: 500px;
+    height: 300px;
+}
+.bottom>#box1{
+    position :absolute;
+    top : 498px;
+    left : 398px;
+}
+.commentText{
+    width : 350px;
+    height : 150px;
+    font-size : 15pt;
+    text-align: center;
+
+}
+.bottom>#text1{
+    position : absolute;
+    top : 573px;
+    left : 473px;
+}
+.bottom>#box2{
+    position : absolute;
+    top : 648px;
+    left : 1072px;
+}
+.bottom>#text2{
+    position: absolute;
+    top: 723px;
+    left : 1147px;
+}
+.bottom>#box3{
+    position: absolute;
+    top: 948px;
+    left : 306px;
+}
+.bottom>#text3{
+    position: absolute;
+    top : 1023px;
+    left : 381px;
+}
+.bottom>#box4{
+    position: absolute;
+    top : 1098px;
+    left : 980px;
+}
+.bottom>#text4{
+    position : absolute;
+    top : 1173px;
+    left: 1055px;
+}
+.commentBar{
+    width : 66px;
+    height: 68px;
+}
+.barText{
+    width: 370px;
+    height: 80px;
+    color :#b6b6b6;
+    font-size: 19pt;
+    letter-spacing: 2pt;
+}
+.bottom>#bar1{
+    position: absolute;
+    top : 299px;
+    left : 1080px;
+}
+.bottom>#bar2{
+    position: absolute;
+    top : 1467px;
+    left : 749px;
+}
+.bottom>#barText1{
+    position: absolute;
+    top : 379px;
+    left: 1080px;
+}
+.bottom>#barText2{
+    position: absolute;
+    top : 1452px;
+    left: 362px;
+    text-align: right;
+}
+.bottom>#line{
+    position: absolute;
+    width :20px;
+    height: 248px;
+    top : 1767px;
+    left : 950px; 
+}
+.bottom>#lineText1{
+    position: absolute;
+    top : 2197px;
+    left : 500px;
+    width : 923px;
+    height: 294px;
+    text-align: center;
+    font-size : 25pt;
+    color: #c2c2c2;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.bottom>#lineText2{
+    position: absolute;
+    top : 2228px;
+    left : 658px;
+    width : 604px;
+    height: 125px;
+    text-align: center;
+    font-size : 32pt;
+    color: #536054;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-top: 30px;
+}
+.additionPage{
+    position: absolute;
+    top : 6663px;
+    width : 1920Px;
+    height: 1150px;
+}
+.additionPage>#title{
+    position: absolute;
+    width: 193px;
+    height: 50px;
+    top : 120px;
+    left: 421px;
+    font-size: 25pt;
+    color: #303030;
+}
+.additionPage>#num{
+    position: absolute;
+    width: 193px;
+    height: 50px;
+    top : 195px;
+    left: 421px;
+    font-size: 14pt;
+    color: #3062be;
+}
+.additionPage>.line{
+    position: absolute;
+    width :1095px;
+    height: 1px;
+    top : 265px;
+    left: 421px;
+    color: #c8cfc6;
+    background-color: #c8cfc6;
+}
