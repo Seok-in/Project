@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+*{
+    margin: 0;
+    font-family : 'NanumBarunGothic', sans-serif;
+}
+.wrap{
+    
+    max-width: 2560px;
+    width : 100%;
+    
+}
+header{    
+    position:relative; 
+    width: 100%;  
+    height : 78vw;    
+    
+}
+
+#headerBg{
+    display: block;
+    position: absolute;
+    width : 100%;
+    opacity: 0.8;
+      
+}
+#logo{    
+    position : absolute;
+    width : 20%;
+    margin-left : 7.5%;
+    margin-top : 7.5%;     
+}
+#title{
+    position: absolute;
+    width : 50%;
+    font-size: 5.2vw;
+    z-index: 1;    
+    left : 50%;
+    margin-left : -25%;
+    margin-top : 28%;
+    color: white;
+    text-align: center;
+}
+#mainComment{
+    display: flex;
+    justify-content: center;    
+    align-items: center;        
+    text-align: center;    
+    position: absolute; 
+    margin-top : 45%;
+    left : 24%;
+    border : 0px none white;
+    background-color: white;
+    border-radius: 2vw;
+    width : 51%;    
+    font-size : 2vw;
+}
+#leftBtnimage{
+    position : absolute;
+    width: 3%;
+    left : 87%;
+}
+#rightBtnimage{
+    position : absolute;
+    width: 3%;
+    left : 93%;
+}
+content{    
+    position:relative;
+    width : 100%;   
+}
+.content1{
+    position : relative;
+    width : 100%;
+    height : 71vw;
+}
+#allMan{
+    position : absolute;
+    top : 36.5%;
+    left : 13%;
+    font-size : 1.2vw;
+    color :#6c6c6c;
+}
+#allNum{
+    margin-top: 10%;    
+    font-size: 2.7vw;
+    color : red;
+}
+#line{    
+    margin-top: 2%;    
+    position: absolute;
+    top : 45%;
+    left : 13%;
+    width : 17%;
+}
+#todayMan{
+    margin-top : 1.5%;
+    position : absolute;
+    top : 50%;
+    left : 13%;
+    font-size : 1.2vw;
+    color : #6c6c6c;
+    
+}
+#num{
+    display: inline;
+    color : black;
+}
+#todayNum{
+    margin-top: 10%;    
+    font-size: 2.7vw;
+    color : blue;
+}
+.btn{
+    display :inline-block;
+    font-size : 1vw;    
+    color : #4a6b4b;    
+    text-align: center;
+    background-color: white;
+    border : 1px solid gray;
+    letter-spacing: 0.5vw;
+    border-radius: 0%;
+    box-shadow: none;
+    width : 6%;
+    height: 5%;    
+}
+#dayBtn{
+    position : absolute;    
+    top : 30%;
+    left : 55%;
+}
+#allBtn{
+    position : absolute;    
+    top : 30%;
+    left : 61.25%;
+}
+#ageBtn{
+    position : absolute;    
+    top : 30%;
+    left : 75%;
+}
+#genderBtn{
+    position : absolute;    
+    top : 30%;
+    left : 81.25%;
+}
+#warning{       
+    position : absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border : 2px solid #b83232;
+    background-color : #b83232;
+    width :50%;
+    top : 88%;    
+    font-size: 2.7vw;
+    height : 14%;
+    left : 50%;
+    color : white;
+    box-shadow : 0.8vw 0.8vw 0.9vw 1vw rgba(0,0,0,0.2);
+    font-weight: bolder;
+    z-index: 1;
+}
+#warningBell{    
+    float: left;
+    margin-left : -5%;
+    margin-right: 5%;
+    
+}
+.content2{
+    position: relative;
+    width : 100%;
+    height : 48.5vw;
+    background-image: url(./image/content2bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#whiteBox{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position:absolute;
+    border : 1px solid white;
+    background-color:white;
+    opacity: 0.3;    
+    width : 63%;
+    height: 50%;
+    top: 29%;
+    left : 18%;    
+}
+.anText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;       
+    font-size : 2vw;    
+    font-weight: bolder;
+    color : black;
+    width : 50%;
+    height : 100%;    
+}
+#now{
+    border-right: 0.5px solid gray;
+}
+.content3{
+    position: relative;
+    margin-top: -0.5vw;
+    width: 100%;
+    height : 10vw;
+    background-image: url(./image/msglayer.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#msgInput{
+    position : absolute;
+    left : 50%;
+    top : 33%;
+    width : 34%;
+    height : 34%;
+    font-size : 1.5vw;
+    padding-right : 5.5%;
+}
+#msgImg{      
+    position: absolute;
+    left : 86%;
+    top : 42%;
+    border : none;    
+    background-image: url(./image/msgbtn.jpg);
+    height : 23%;
+    width : 2.5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content4{
+    position: relative;
+    width : 100%;
+    height : 178vw;
+}
+.msg{
+    width : 16%;
+    font-size : 1vw;
+    color: #b6b6b6;
+    font-weight: bold;
+}
+#upmsg{
+    position : absolute;
+    top : 8%;
+    left : 56%;
+}
+#downmsg{
+    position : absolute;
+    left : 25%;
+    top : 38%;
+}
+#upbar{
+    display : block;
+}
+#downbar{
+    float: right;
+}
+.msgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position : absolute;
+    background-image: url(./image/msgbox.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding : 1% 1% 1.5% 1.5%;
+    width : 18%;
+    height : 5%;
+    font-size : 1vw;
+    font-weight: bold;    
+}
+#comment1{
+    top : 15%;
+    left : 31%;
+}
+#comment2{
+    top:17.5%;
+    left : 54%;
+}
+#comment3{
+    top: 23%;
+    left : 27%;
+}
+#comment4{
+    top : 25.5%;
+    left : 50%;
+}
+#bar2{
+    position : absolute;
+    top:42%;
+    left : 49%;
+    width : 1%;
+    height : 7%;
+}
